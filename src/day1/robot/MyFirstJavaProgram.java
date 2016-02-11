@@ -8,8 +8,18 @@ public class MyFirstJavaProgram {
 		
 		// START HERE
 
+	Robot aerobe = new Robot ();
+	aerobe.setPenColor(Color. green);
+	aerobe.penDown();
+	aerobe.sparkle();
+    
+   for(int i=0 ; i<4; i++)
+   {
+	   aerobe.move(50);
+	   aerobe.turn(90);
+	   
+   }
+   
+			
 	
-		
-		
-	}
-}
+
